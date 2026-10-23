@@ -17,7 +17,7 @@ const options = {
       },
     ],
   },
-  apis: ['./src/routes/*.js', './src/index.js'], // Ruta donde buscará las anotaciones de los endpoints
+  apis: ['./src/routes/*.js', './src/index.js'],
 };
 
 const swaggerSpec = swaggerJSDoc(options);
