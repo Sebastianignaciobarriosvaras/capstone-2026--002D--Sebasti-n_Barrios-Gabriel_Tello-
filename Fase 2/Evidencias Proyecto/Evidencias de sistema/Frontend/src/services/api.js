@@ -1,6 +1,5 @@
 import axios from 'axios';
 
-// En producción (npm run build) apunta directo a teamzoron.cl/v1/api; en local (npm run dev) usa localhost:3000
 const API_URL = import.meta.env.PROD
   ? 'https://teamzoron.cl/v1/api'
   : (import.meta.env.VITE_API_URL || 'http://localhost:3000/api');
